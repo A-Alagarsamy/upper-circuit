@@ -1,0 +1,60 @@
+body
+{
+
+background-color: black;        
+}
+ul 
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    
+}
+li
+{
+   float:left;
+   
+}
+li a
+{
+    display: block;
+    padding: 20px 20px;
+    overflow:hidden;
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+li a:hover
+{
+    color: cadetblue;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.box
+{
+    flex-wrap: wrap;
+    flex-basis: 5%;
+    border: px solid;
+    text-align: center;
+    background-color: #222;
+    border-radius: 5px;
+    color: white;
+}
+.container .grey
+{
+    flex-wrap: wrap;
+    flex-basis: 15%;
+    border: px solid;
+    text-align: center;
+    background-color: #222;
+    border-radius: 5px;
+    color: white;
+}
